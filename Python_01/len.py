@@ -1,2 +1,3 @@
 text = "madrid"
-print(len(text))  # Output: 5
+
+print(len(text))  
