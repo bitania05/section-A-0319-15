@@ -104,3 +104,77 @@ Conclusion
 
 These string methods are essential for handling text formatting in Python. They are widely used for data normalization, user input processing, and text-based operations.
 
+Case Methods
+
+
+str.title() – Converts the first character of each word to uppercase.
+
+str.swapcase() – Swaps the case of each character.
+
+
+
+Searching & Indexing
+
+str.find() – Returns the index of the first occurrence of a substring, or -1 if not found.
+
+str.index() – Returns the index of the first occurrence of a substring, raises error if not found.
+
+str.startswith() – Checks if the string starts with a specified value.
+
+str.endswith() – Checks if the string ends with a specified value.
+
+str.count() – Counts how many times a substring appears.
+
+
+
+Replacing and Trimming
+
+str.replace() – Replaces occurrences of a substring with another substring.
+
+str.strip() – Removes leading and trailing whitespace.
+
+str.lstrip() – Removes leading whitespace.
+
+str.rstrip() – Removes trailing whitespace.
+
+
+
+Splitting and Joining
+
+str.split() – Splits the string into a list based on a separator.
+
+str.join() – Joins elements of an iterable into a string.
+
+
+
+String Checks
+
+str.isalpha() – Checks if all characters are alphabetic.
+
+str.isdigit() – Checks if all characters are digits.
+
+str.isalnum() – Checks if all characters are alphanumeric.
+
+str.isspace() – Checks if all characters are whitespace.
+
+str.islower() – Checks if all characters are lowercase.
+
+str.isupper() – Checks if all characters are uppercase.
+
+
+
+Formatting and Encoding
+
+str.format() – Formats strings using placeholders.
+
+f-strings – Embeds expressions inside string literals using {}.
+
+str.encode() – Encodes the string into bytes using a specific encoding.
+
+
+
+Other
+
+len() – Returns the number of characters in a string.
+
+
